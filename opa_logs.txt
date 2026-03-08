@@ -1,0 +1,72 @@
+﻿error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body
+error: load error: 2 errors occurred during loading:
+/policies/sre_safety.rego:8: rego_parse_error: `if` keyword is required before rule body
+/policies/system_rules.rego:10: rego_parse_error: `if` keyword is required before rule body

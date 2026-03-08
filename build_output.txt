@@ -1,0 +1,83 @@
+﻿#0 building with "desktop-linux" instance using docker driver
+System.Management.Automation.RemoteException
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 999B 0.0s done
+#1 DONE 0.1s
+System.Management.Automation.RemoteException
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.1s
+System.Management.Automation.RemoteException
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+System.Management.Automation.RemoteException
+#4 [ 1/11] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#4 resolve docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf 0.0s done
+#4 DONE 0.1s
+System.Management.Automation.RemoteException
+#5 [internal] load build context
+#5 transferring context: 76.78kB 0.3s done
+#5 DONE 0.3s
+System.Management.Automation.RemoteException
+#6 [ 5/11] RUN pip install --no-cache-dir     fastapi     pydantic     urllib3     uvicorn     prometheus-client     stripe     python-terraform     cryptography
+#6 CACHED
+System.Management.Automation.RemoteException
+#7 [ 2/11] WORKDIR /workspace
+#7 CACHED
+System.Management.Automation.RemoteException
+#8 [ 3/11] RUN apt-get update && apt-get install -y gcc curl && rm -rf /var/lib/apt/lists/*
+#8 CACHED
+System.Management.Automation.RemoteException
+#9 [ 6/11] RUN pip install -e ./packages/shared_utils
+#9 CACHED
+System.Management.Automation.RemoteException
+#10 [ 7/11] RUN pip install -e ./packages/core
+#10 CACHED
+System.Management.Automation.RemoteException
+#11 [ 4/11] COPY . /workspace/
+#11 CACHED
+System.Management.Automation.RemoteException
+#12 [ 8/11] RUN pip install -e ./packages/enforcement
+#12 CACHED
+System.Management.Automation.RemoteException
+#13 [ 9/11] RUN pip install -e ./packages/sdk
+#13 0.997 Obtaining file:///workspace/packages/sdk
+#13 1.003   Installing build dependencies: started
+#13 3.471   Installing build dependencies: finished with status 'done'
+#13 3.472   Checking if build backend supports build_editable: started
+#13 3.599   Checking if build backend supports build_editable: finished with status 'done'
+#13 3.600   Getting requirements to build editable: started
+#13 3.768   Getting requirements to build editable: finished with status 'done'
+#13 3.771   Preparing editable metadata (pyproject.toml): started
+#13 3.944   Preparing editable metadata (pyproject.toml): finished with status 'done'
+#13 3.957 Requirement already satisfied: guard.core in /usr/local/lib/python3.11/site-packages (from guard.sdk==0.1.0) (0.1.0)
+#13 3.960 Requirement already satisfied: guard.enforcement in /usr/local/lib/python3.11/site-packages (from guard.sdk==0.1.0) (0.1.0)
+#13 4.565 INFO: pip is looking at multiple versions of guard-sdk to determine which version is compatible with other requirements. This could take a while.
+#13 4.566 ERROR: Could not find a version that satisfies the requirement guard.scoring (from guard-sdk) (from versions: none)
+#13 4.566 ERROR: No matching distribution found for guard.scoring
+#13 4.577 
+#13 4.577 [notice] A new release of pip is available: 24.0 -> 26.0.1
+#13 4.577 [notice] To update, run: pip install --upgrade pip
+#13 ERROR: process "/bin/sh -c pip install -e ./packages/sdk" did not complete successfully: exit code: 1
+------
+ > [ 9/11] RUN pip install -e ./packages/sdk:
+3.771   Preparing editable metadata (pyproject.toml): started
+3.944   Preparing editable metadata (pyproject.toml): finished with status 'done'
+3.957 Requirement already satisfied: guard.core in /usr/local/lib/python3.11/site-packages (from guard.sdk==0.1.0) (0.1.0)
+3.960 Requirement already satisfied: guard.enforcement in /usr/local/lib/python3.11/site-packages (from guard.sdk==0.1.0) (0.1.0)
+4.565 INFO: pip is looking at multiple versions of guard-sdk to determine which version is compatible with other requirements. This could take a while.
+4.566 ERROR: Could not find a version that satisfies the requirement guard.scoring (from guard-sdk) (from versions: none)
+4.566 ERROR: No matching distribution found for guard.scoring
+4.577 
+4.577 [notice] A new release of pip is available: 24.0 -> 26.0.1
+4.577 [notice] To update, run: pip install --upgrade pip
+------
+Dockerfile:26
+--------------------
+  24 |     RUN pip install -e ./packages/core
+  25 |     RUN pip install -e ./packages/enforcement
+  26 | >>> RUN pip install -e ./packages/sdk
+  27 |     RUN pip install -e ./packages/scoring
+  28 |     RUN pip install -e ./packages/logic
+--------------------
+ERROR: failed to build: failed to solve: process "/bin/sh -c pip install -e ./packages/sdk" did not complete successfully: exit code: 1
