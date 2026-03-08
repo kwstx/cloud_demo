@@ -1,0 +1,4 @@
+venv/
+pip_out.txt
+__pycache__/
+*.pyc
