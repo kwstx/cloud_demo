@@ -4,7 +4,7 @@ import sys
 
 # Initialize the client pointing to the Gateway's URL
 # The gateway is running at http://localhost:8000
-client = AutonomyClient(gateway_url="http://localhost:8000")
+client = AutonomyClient(server_url="http://localhost:8000")
 
 @circuit_breaker(
     client=client,
